@@ -6,6 +6,7 @@ body{
     align-items: center;
     text-align: center;
     color:#1A1A1D ;
+    background-color: #DFF2EB;
 }
 #real-work{
     padding: 2rem;
@@ -80,13 +81,26 @@ button:hover{
     transition: ease-in-out 0.5s;
 }
 
+h1{
+    font-size: 2rem;
+}
+
 #resume{
-    background-color: #1A1A1D;
-    color: #C6E7FF;
-    width: 50%;
-    right: 25%;
-    position: absolute;
-    margin-top: 2rem;   
+    
+    border: 2px solid #1A1A1D;
+    color:1A1A1D ;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: white; 
+    padding: 1rem;
+    
+    
+}
+#real-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .resume-info{
@@ -141,4 +155,8 @@ button:hover{
     flex-direction: row;
     gap: 2rem;
     margin-right: 0;
+}
+
+footer{
+    padding: 1rem;
 }
